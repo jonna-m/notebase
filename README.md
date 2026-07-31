@@ -52,15 +52,15 @@ rather than inventing full bibliographic details.
 
 ## Status
 
-✅ Multi-document upload (`.txt`, `.md`, `.pdf`). It also supports adding and removing sources mid-conversation, no need to restart.
-✅ Citation-aware, hallucination-resistant prompting, including explicit multi-document disagreement handling.
-✅ Streaming answers with live status updates, so multi-step tool use (e.g. several web searches in a row) doesn't look like the app froze up.
-✅ Web search toggle, on demand, via Claude's server-side `web_search` tool.
-✅ Prompt caching across turns for repeated document content.
+- ✅ Multi-document upload (`.txt`, `.md`, `.pdf`). It also supports adding and removing sources mid-conversation, no need to restart.
+- ✅ Citation-aware, hallucination-resistant prompting, including explicit multi-document disagreement handling.
+- ✅ Streaming answers with live status updates, so multi-step tool use (e.g. several web searches in a row) doesn't look like the app froze up.
+- ✅ Web search toggle, on demand, via Claude's server-side `web_search` tool.
+- ✅ Prompt caching across turns for repeated document content.
 
-🚧 Vector-based retrieval / chunking for large corpora. Currently everything is injected as full-document context, which is fine for a handful of papers but won't scale to a large corpus.
-🚧 Persistent source library. Currently the uploaded sources live in server memory only and are gone on restart.
-🚧 Audio and image sources. The upload UI gestures at them, but only text and PDF are actually implemented today.
+- 🚧 Vector-based retrieval / chunking for large corpora. Currently everything is injected as full-document context, which is fine for a handful of papers but won't scale to a large corpus.
+- 🚧 Persistent source library. Currently the uploaded sources live in server memory only and are gone on restart.
+- 🚧 Audio and image sources. The upload UI gestures at them, but only text and PDF are actually implemented today.
 
 ## What's next
 
