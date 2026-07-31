@@ -2,8 +2,7 @@
 
 Drop in research papers, ask questions grounded only in what you uploaded, with optional live web search. Built for my master's thesis literature review — works for any research workflow.
 
-<!-- TODO: replace this with a screenshot or (better) a short GIF of the upload → ask → grounded answer flow. This is the single highest-leverage thing this README is missing. -->
-`[screenshot / GIF here]`
+![Notebase demo](client/public/demo.gif)
 
 Built as a lightweight RAG (Retrieval-Augmented Generation) pipeline: uploaded documents are parsed and injected as grounded context for the Claude API, with prompt-engineered instructions enforcing citation discipline and preventing hallucinated sources.
 
