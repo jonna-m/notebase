@@ -73,7 +73,6 @@ This is a working v.1, not a finished version. A few concrete directions I'd tak
 - **Persistent storage** (even just SQLite) so sources and conversations survive a server restart
 - **Basic auth + a real deployment**, since it currently only runs locally for a single user
 
-If you're reading this as a portfolio piece: the gaps above are known, not accidental — I scoped this to prove the core idea (grounded, citation-honest Q&A over your own sources) rather than build every feature at once.
 
 ## Getting started
 
